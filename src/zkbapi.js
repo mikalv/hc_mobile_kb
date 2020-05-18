@@ -10,7 +10,7 @@ export default class ZkbApi {
         const reqConf = {
             method: 'get',
             url: this.requestUrl,
-            headers: { 'User-Agent': 'Stats page, https://hcstats.meeh.no' }
+            //headers: { 'User-Agent': 'Stats page, https://hcstats.meeh.no' }
         }
         let res = await axios(reqConf)
         //console.log(res)
